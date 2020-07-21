@@ -1,7 +1,7 @@
 # High-Frequency-ETS-Words
 an Android app of selected high-frequency words for GRE preparation.
 
- Google play link: [[https://play.google.com/store/apps/details?id=curiousfreaks.com.gre333](https://play.google.com/store/apps/details?id=curiousfreaks.com.gre333)
+ Google play link: [[https://play.google.com/store/apps/details?id=curiousfreaks.com.gre333](https://play.google.com/store/apps/details?id=curiousfreaks.com.gre333)]
 
 
 A collection of all 333 selected high-frequency words for GRE preparation.  
