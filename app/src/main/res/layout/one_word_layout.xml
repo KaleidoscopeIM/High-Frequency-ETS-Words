@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:background="@mipmap/shadow_nine_patch">
+
+    <!--<RelativeLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true">-->
+
+            <TextView
+                android:id="@+id/id_row"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:text="id"
+                android:textStyle="bold"
+                android:layout_margin="8dp"/>
+            <TextView
+                android:id="@+id/id_word_range"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_centerInParent="true"
+                android:layout_alignParentTop="true"
+                android:textColor="@color/title"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="word"/>
+
+            <ImageView
+                android:id="@+id/id_check_button"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_margin="5dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                app:srcCompat="@mipmap/outline_star_green"
+                />
+
+            <TextView
+                android:id="@+id/id_word_meaning"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="15dp"
+                android:layout_below="@+id/id_word_range"
+                android:layout_centerInParent="true"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textColor="@color/title"
+                android:text="meaning"/>
+
+
+        <!--</RelativeLayout>-->
+
+    <!--<TextView
+        android:id="@+id/wid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/year"
+        android:visibility="invisible"
+        />-->
+        <!--<LinearLayout-->
+            <!--android:id="@+id/circular_bar_layout"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/layout1"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:orientation="vertical"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:gravity="right">-->
+
+            <com.budiyev.android.circularprogressbar.CircularProgressBar
+                android:layout_below="@+id/id_check_button"
+                android:layout_centerInParent="true"
+                android:layout_margin="5dp"
+                android:id="@+id/id_words_progress_bar"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                app:animateProgress="true"
+                app:backgroundStrokeColor="#ff3f51b5"
+                app:backgroundStrokeWidth="1dp"
+                app:drawBackgroundStroke="true"
+                app:foregroundStrokeCap="round"
+                app:foregroundStrokeColor="#ffff4081"
+                app:foregroundStrokeWidth="5dp"
+                app:indeterminate="false"
+                app:indeterminateRotationAnimationDuration="1200"
+                app:indeterminateSweepAnimationDuration="600"
+                app:indeterminateMinimumAngle="45"
+                app:progressAnimationDuration="100"
+                app:startAngle="270"/>
+
+
+          <!--  <ImageView
+                android:id="@+id/speak"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                app:srcCompat="@mipmap/speak" />-->
+
+
+
+
+</RelativeLayout>
