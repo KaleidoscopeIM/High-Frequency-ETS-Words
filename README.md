@@ -16,10 +16,11 @@ Here is the list of features of this app -
 - Voice pronunciation is available.  
 - If like a word then share with friends using any chat client available.  
   
+  
 <p float="left">
-  <img src="images/1.webp" width="150" />
-  <img src="images/2.webp" width="150" /> 
-  <img src="images/3.webp" width="150" />
+  <img src="images/1.webp" width="200" />
+  <img src="images/2.webp" width="200" /> 
+  <img src="images/3.webp" width="200" />
 </p>
 
 ## Thank you ##
