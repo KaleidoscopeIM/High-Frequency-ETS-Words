@@ -17,13 +17,9 @@ Here is the list of features of this app -
 - If like a word then share with friends using any chat client available.  
   
 <p float="left">
-  <img src="images/1.wep" width="130" />
-  <img src="images/2.png" width="130" /> 
-  <img src="images/3.png" width="130" />
-  <img src="images/4.png" width="130" />
-  <img src="images/5.png" width="130" />
-  <img src="images/6.png" width="130" />
-  <img src="images/7.png" width="130" />
+  <img src="images/1.webp" width="150" />
+  <img src="images/2.webp" width="150" /> 
+  <img src="images/3.webp" width="150" />
 </p>
 
 ## Thank you ##
